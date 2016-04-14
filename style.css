@@ -1,0 +1,13 @@
+*, *:after, *:before {
+  box-sizing: border-box;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+#drum_icon {
+  background-image: url("./omatsuri_taiko.png");
+  width: 500px;
+  height: 500px;
+}

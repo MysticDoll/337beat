@@ -1,0 +1,24 @@
+{
+  "extends": "eslint:recommended",
+  "env": {
+    "browser": true,
+    "node": true,
+    "amd": true,
+    "es6": true
+  },
+  "globals": {
+    "kintone": true
+  },
+  "ecmaFeatures": {
+    "modules": true
+  },
+  "rules":{
+    "semi": 2,
+    "eqeqeq": 1,
+    "quotes": 1,
+    "no-console": 0
+  },
+  "parserOptions": {
+    "sourceType": "module"
+  }
+}
