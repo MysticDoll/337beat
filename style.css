@@ -4,10 +4,35 @@
   -webkit-user-select: none;
   -ms-user-select: none;
 }
-#drum_icon {
-  background-image: url("./omatsuri_taiko.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 300px;
-  height: 300px;
+@media(max-width: 768px) {
+  h1 {
+    font-size: 1.2em;
+  }
+  #drum_icon {
+    background-image: url("./omatsuri_taiko.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media(min-width: 768px) {
+  #drum_icon {
+    background-image: url("./omatsuri_taiko.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 500px;
+  }
+}
+
+@media(min-width: 1000px) {
+  #drum_icon {
+    background-image: url("./omatsuri_taiko.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 800px;
+    height: 800px;
+  }
 }
